@@ -1,0 +1,248 @@
+:root {
+  --color-bg: #f7f5f1;
+  --color-surface: #ffffff;
+  --color-text: #1f2a37;
+  --color-muted: #5b6776;
+  --color-accent: #2c5f4a;
+  --color-accent-strong: #1f4435;
+  --color-border: #e3ddd1;
+  --shadow-card: 0 2px 8px rgba(20, 32, 44, 0.06);
+  --radius: 6px;
+  --max-width: 1080px;
+  --font-sans: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-serif: "Georgia", "Times New Roman", serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.15s ease, color 0.15s ease;
+}
+
+a:hover,
+a:focus {
+  color: var(--color-accent-strong);
+  border-bottom-color: var(--color-accent-strong);
+}
+
+/* Header */
+.site-header {
+  background: var(--color-surface);
+  border-bottom: 1px solid var(--color-border);
+  padding: 3rem 0 2.5rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  color: var(--color-muted);
+  margin: 0 0 0.5rem;
+}
+
+.site-header h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(2.1rem, 4vw, 2.9rem);
+  margin: 0 0 0.75rem;
+  line-height: 1.15;
+}
+
+.lede {
+  font-size: 1.08rem;
+  max-width: 56ch;
+  color: var(--color-text);
+  margin: 0 0 1.5rem;
+}
+
+.header-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  font-size: 0.95rem;
+}
+
+/* Sections */
+main section {
+  padding: 3rem 0 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+main section:last-of-type {
+  border-bottom: none;
+}
+
+h2 {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  margin: 0 0 1.25rem;
+}
+
+.section-intro {
+  color: var(--color-muted);
+  max-width: 60ch;
+  margin: 0 0 1.75rem;
+}
+
+/* Course card */
+.course-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  padding: 1.5rem 1.75rem;
+  box-shadow: var(--shadow-card);
+}
+
+.course-card h3 {
+  margin-top: 0;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+}
+
+/* Project grid */
+.card-grid {
+  display: grid;
+  gap: 1.75rem;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.project-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.pdf-preview {
+  background: #2a2a2a;
+  aspect-ratio: 4 / 3;
+  width: 100%;
+}
+
+.pdf-preview object {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border: none;
+}
+
+.pdf-preview p {
+  color: #fff;
+  padding: 1rem;
+  margin: 0;
+}
+
+.card-body {
+  padding: 1.25rem 1.5rem 1.5rem;
+}
+
+.card-body h3 {
+  margin: 0 0 0.4rem;
+  font-family: var(--font-serif);
+  font-size: 1.2rem;
+}
+
+.tag {
+  font-size: 0.82rem;
+  color: var(--color-muted);
+  letter-spacing: 0.03em;
+  margin: 0 0 0.85rem;
+}
+
+.card-actions {
+  margin-top: 1rem;
+  display: flex;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 0.5rem 0.95rem;
+  background: var(--color-accent);
+  color: #fff;
+  border: 1px solid var(--color-accent);
+  border-radius: var(--radius);
+  font-size: 0.92rem;
+  font-weight: 500;
+  border-bottom: 1px solid var(--color-accent);
+}
+
+.button:hover,
+.button:focus {
+  background: var(--color-accent-strong);
+  border-color: var(--color-accent-strong);
+  color: #fff;
+}
+
+.button-secondary {
+  background: transparent;
+  color: var(--color-accent);
+}
+
+.button-secondary:hover,
+.button-secondary:focus {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+/* About */
+.skills {
+  padding-left: 1.2rem;
+  margin: 0.75rem 0 0;
+}
+
+.skills li {
+  margin-bottom: 0.5rem;
+}
+
+/* Footer */
+.site-footer {
+  background: var(--color-surface);
+  border-top: 1px solid var(--color-border);
+  padding: 1.75rem 0;
+  color: var(--color-muted);
+  font-size: 0.9rem;
+  margin-top: 2.5rem;
+}
+
+.site-footer p {
+  margin: 0.25rem 0;
+}
+
+@media (max-width: 540px) {
+  .site-header {
+    padding: 2.25rem 0 1.75rem;
+  }
+  main section {
+    padding: 2.25rem 0 0.75rem;
+  }
+}
