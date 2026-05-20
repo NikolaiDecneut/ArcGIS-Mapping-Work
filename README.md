@@ -4,7 +4,7 @@ A portfolio of finalized ArcGIS Pro map projects from coursework and personal
 work. Each project is published as a finalized PDF deliverable with a short
 description of what the map shows and how it was made.
 
-**Live site:** https://nikolaidecneut.github.io/ArcGIS-Mapping-Work/
+**Live site:** [ArcGIS Mapping Portfolio](https://nikolaidecneut.github.io/ArcGIS-Mapping-Work/)
 
 ---
 
