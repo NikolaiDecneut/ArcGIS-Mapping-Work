@@ -17,7 +17,7 @@ The most challenging course I've taken so far. The companion repository
 holds assignments, project code, and writeups exploring advanced
 visualization techniques, interactive design, and visual analytics.
 
-➡️ **[NikolaiDecneut/Adv-Topics-in-Data-Viz](https://github.com/NikolaiDecneut/Adv-Topics-in-Data-Viz)**
+➡️ **[Advanced Topics in Data Visualization Portfolio](https://nikolaidecneut.github.io/Adv-Topics-in-Data-Viz/)**
 
 ---
 
