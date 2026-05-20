@@ -6,7 +6,7 @@ In this repository i will upload and showcase different assignments and personal
 
 
 
-I'm a **Data Visualization student** at the **University of Washington**, specializing in **Java, R, Tableau, ArcGIS Pro, Statistics and data-driven storytelling**. 
+I'm a **Data Visualization student** at the **University of Washington**, specializing in **Java, R, D3, Tableau, ArcGIS Pro, Statistics and data-driven storytelling**. 
 I’m passionate about turning complex data into meaningful visual insights—whether through interactive dashboards, spatial analysis, or exploratory visual design.
 
 My work combines **spatial thinking**, **data science + analytics**, and **design clarity** to make data intuitive for everyone—from domain experts to newcomers discovering the power of visualization.
